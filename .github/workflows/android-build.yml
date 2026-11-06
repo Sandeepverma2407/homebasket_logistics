@@ -1,0 +1,54 @@
+name: Build Android APK
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    env:
+      CI: true
+      EXPO_NO_TELEMETRY: 1
+      JAVA_OPTS: "-Xmx2048m"
+      GRADLE_OPTS: "-Dorg.gradle.jvmargs='-Xmx3072m -XX:MaxMetaspaceSize=512m -XX:+UseG1GC' -Dorg.gradle.daemon=false"
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: 'content/package-lock.json'
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Install Dependencies
+        run: |
+          cd content
+          npm install
+
+      - name: Build Android Release APK
+        run: |
+          cd content/android
+          chmod +x ./gradlew
+          ./gradlew assembleRelease --no-daemon --console=plain -PreactNativeArchitectures=arm64-v8a,x86_64
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: react-native-apk
+          path: content/android/app/build/outputs/apk/release/*.apk

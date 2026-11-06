@@ -1,0 +1,43 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS / OS-specific
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders and build outputs
+content/android/app/build/
+content/android/build/
+content/android/.gradle/
+content/android/.kotlin/
+content/ios/Pods/
+content/ios/build/
+content/.xcode.env.local
+
+# zip files
+*.zip
+
+# Generated release artifacts and local notification test credentials
+build_apk/
+Backend/test_order_sound.php
+test_order_sound.php

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to {{APP_NAME}} Delivery Fleet</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f1f5f9;
+      margin: 0;
+      padding: 0;
+      color: #1e293b;
+    }
+    .wrapper {
+      width: 100%;
+      background-color: #f1f5f9;
+      padding: 30px 10px;
+      box-sizing: border-box;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+      overflow: hidden;
+      border: 1px solid #e2e8f0;
+    }
+    .header {
+      background: linear-gradient(135deg, #059669 0%, #10B981 100%);
+      padding: 36px 24px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .header-badge {
+      display: inline-block;
+      background-color: rgba(255, 255, 255, 0.2);
+      padding: 6px 16px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .content {
+      padding: 36px 28px;
+      line-height: 1.6;
+    }
+    .greeting {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+    .intro {
+      font-size: 15px;
+      color: #475569;
+      margin-bottom: 24px;
+    }
+    .credentials-card {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 24px;
+    }
+    .credentials-title {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #059669;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .credential-row {
+      display: flex;
+      justifyContent: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px dashed #cbd5e1;
+      font-size: 14px;
+    }
+    .credential-row:last-child {
+      border-bottom: none;
+    }
+    .credential-label {
+      color: #64748b;
+      font-weight: 500;
+    }
+    .credential-value {
+      color: #0f172a;
+      font-weight: 600;
+    }
+    .password-highlight {
+      background-color: #ecfdf5;
+      border: 2px dashed #10b981;
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+      margin: 20px 0;
+    }
+    .password-label {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 700;
+      color: #047857;
+      margin-bottom: 6px;
+    }
+    .password-value {
+      font-size: 24px;
+      font-weight: 800;
+      font-family: 'Courier New', Courier, monospace;
+      letter-spacing: 2px;
+      color: #065f46;
+    }
+    .steps-box {
+      background-color: #ffffff;
+      border-left: 4px solid #10b981;
+      padding: 16px 20px;
+      margin-bottom: 24px;
+      border-radius: 0 8px 8px 0;
+      background: #f0fdf4;
+    }
+    .steps-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #065f46;
+      margin-bottom: 8px;
+    }
+    .steps-list {
+      margin: 0;
+      padding-left: 20px;
+      color: #166534;
+      font-size: 14px;
+    }
+    .steps-list li {
+      margin-bottom: 6px;
+    }
+    .security-notice {
+      font-size: 13px;
+      color: #64748b;
+      background-color: #f8fafc;
+      border-radius: 8px;
+      padding: 14px 16px;
+      border: 1px solid #e2e8f0;
+      margin-top: 20px;
+    }
+    .footer {
+      background-color: #0f172a;
+      color: #94a3b8;
+      padding: 24px;
+      text-align: center;
+      font-size: 12px;
+      line-height: 1.6;
+    }
+    .footer a {
+      color: #34d399;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="header">
+        <div class="header-badge">Delivery Fleet Partner</div>
+        <h1>{{APP_NAME}}</h1>
+      </div>
+      <div class="content">
+        <div class="greeting">Welcome, {{NAME}}! 🎉</div>
+        <p class="intro">
+          Congratulations and welcome to the <strong>{{APP_NAME}} Delivery Partner Fleet</strong>. 
+          Your account is now active, and we are excited to have you deliver happiness to our customers.
+        </p>
+
+        <div class="credentials-card">
+          <div class="credentials-title">📋 Your Partner Account Details</div>
+          <table width="100%" cellpadding="6" cellspacing="0" style="border-collapse: collapse; font-size: 14px;">
+            <tr>
+              <td style="color: #64748b; padding: 6px 0; border-bottom: 1px dashed #e2e8f0;">Partner ID:</td>
+              <td style="color: #0f172a; font-weight: 700; text-align: right; padding: 6px 0; border-bottom: 1px dashed #e2e8f0;">{{UNIQUE_ID}}</td>
+            </tr>
+            <tr>
+              <td style="color: #64748b; padding: 6px 0; border-bottom: 1px dashed #e2e8f0;">Registered Mobile:</td>
+              <td style="color: #0f172a; font-weight: 700; text-align: right; padding: 6px 0; border-bottom: 1px dashed #e2e8f0;">+91 {{MOBILE_NO}}</td>
+            </tr>
+            <tr>
+              <td style="color: #64748b; padding: 6px 0;">Registered Email:</td>
+              <td style="color: #0f172a; font-weight: 600; text-align: right; padding: 6px 0;">{{EMAIL}}</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="password-highlight">
+          <div class="password-label">Your Generated Account Password</div>
+          <div class="password-value">{{PASSWORD}}</div>
+          <div style="font-size: 12px; color: #047857; margin-top: 6px;">
+            Keep this password safe. You can log in using either this Password or Instant OTP.
+          </div>
+        </div>
+
+        <div class="steps-box">
+          <div class="steps-title">🚀 How to Start Delivering:</div>
+          <ol class="steps-list">
+            <li>Open the <strong>{{APP_NAME}} Partner App</strong>.</li>
+            <li>Log in using your mobile number and the password above (or via OTP).</li>
+            <li>Toggle your duty status to <strong>Online</strong> when you are ready to receive orders.</li>
+            <li>Accept delivery jobs, navigate to pickup, and deliver quickly!</li>
+          </ol>
+        </div>
+
+        <div class="security-notice">
+          <strong>🔒 Security Tip:</strong> Never share your password, OTP, or account credentials with anyone. 
+          Our support team will never ask for your password.
+        </div>
+      </div>
+      <div class="footer">
+        <p style="margin: 0 0 8px 0;">&copy; 2026 {{APP_NAME}} Logistics Team. All rights reserved.</p>
+        <p style="margin: 0;">Need support? Contact your fleet manager or helpdesk.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,276 @@
+{
+  "project_info": {
+    "project_number": "612721299477",
+    "project_id": "mtb-projects-8e1ba",
+    "storage_bucket": "mtb-projects-8e1ba.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:3b509cd3d13b8a82a1be1c",
+        "android_client_info": {
+          "package_name": "com.app.besure99"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:fbd385cb2341c582a1be1c",
+        "android_client_info": {
+          "package_name": "com.besaca.users"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:948434e5b9bba7dda1be1c",
+        "android_client_info": {
+          "package_name": "com.besure99.users"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:dac63907225acaaca1be1c",
+        "android_client_info": {
+          "package_name": "com.geozmart.users"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:ccdc01ef18bda311a1be1c",
+        "android_client_info": {
+          "package_name": "com.grozyy.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:a0be711d50b297fea1be1c",
+        "android_client_info": {
+          "package_name": "com.grozyy.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:4bd9c8e6b01ffb0fa1be1c",
+        "android_client_info": {
+          "package_name": "com.grozyy.user"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:ab4316e4e7b4dce6a1be1c",
+        "android_client_info": {
+          "package_name": "com.homebasket.delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:f21e54ca8ac3049da1be1c",
+        "android_client_info": {
+          "package_name": "com.homebasket.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:c973b5d5ae6d305ba1be1c",
+        "android_client_info": {
+          "package_name": "com.homebasket.users"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:d3b0f3614e0afb6ba1be1c",
+        "android_client_info": {
+          "package_name": "com.mtbstore.delivery"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:d1d45e66853951e2a1be1c",
+        "android_client_info": {
+          "package_name": "com.mtbstore.shop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:c792a84be0e9f0a6a1be1c",
+        "android_client_info": {
+          "package_name": "com.mtbstore.users"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:612721299477:android:767fd1dbe0ca1320a1be1c",
+        "android_client_info": {
+          "package_name": "com.ninekart.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrAHec_4wKDlACaQszMq00VQd881Yizkw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
